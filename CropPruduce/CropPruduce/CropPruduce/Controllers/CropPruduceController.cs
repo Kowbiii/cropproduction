@@ -26,6 +26,7 @@ namespace CropPruduce.Controllers
                 Crops.Add(new CropClass { Id = _nextId++, Name = "Coffee", GrowthDurationDays = 80-90, HarvestDate = DateTime.Now.AddDays(80-90) });
                 Crops.Add(new CropClass { Id = _nextId++, Name = "Salt", GrowthDurationDays = 100, HarvestDate = DateTime.Now.AddDays(100) });
                 Crops.Add(new CropClass { Id = _nextId++, Name = "Wheat", GrowthDurationDays = 100, HarvestDate = DateTime.Now.AddDays(100) });
+                Crops.Add(new CropClass { Id = _nextId++, Name = "Rice", GrowthDurationDays = 100, HarvestDate = DateTime.Now.AddDays(100) });
             }
         }
 
